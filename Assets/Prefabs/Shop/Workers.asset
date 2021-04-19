@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea5a227301e7349a0e125e78f6c183, type: 3}
+  m_Name: Workers
+  m_EditorClassIdentifier: 
+  Name: WORKERS
+  Description: Workers
+  Level: 0
+  StopOnMaxLevel: 0
+  Upgrades:
+  - Price: 10
+    Time: 5
+    TimeDescription: Increasing Population
+    Items:
+    - Type: 1
+      Amount: 1
+  UI: {fileID: 0}
